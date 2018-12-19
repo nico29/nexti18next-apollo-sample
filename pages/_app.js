@@ -26,4 +26,4 @@ class SampleApp extends App {
   }
 }
 
-export default withTranslations(withApollo(SampleApp));
+export default withApollo(withTranslations(SampleApp));
